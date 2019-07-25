@@ -40,7 +40,7 @@ yoted
 Note that this, just like ```printf()```, needs C-strings to work.
 
 ### C
-Pure C needs to be handled a bit differently, unfortunately. Call multilineString::concat() from ```multiLineString.h```, but because C doesn't support calculating the number of variadic arguments automatically when dealing with C-strings, you have to manually tell the function how many arguments there are and what buffer to write to.
+Pure C needs to be handled a bit differently, unfortunately. Call ```multilineString::concat()``` from ```multiLineString.h```, but because C doesn't support calculating the number of variadic arguments automatically when dealing with C-strings, you have to manually tell the function how many arguments there are and what buffer to write to.
 #### Example:
 ```[C]
 #include <stdio.h>
