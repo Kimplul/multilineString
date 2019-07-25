@@ -4,7 +4,7 @@ C/C++ header files for a simple multiline string concatenator.
 Just copy the multiLineString.h(pp) file into your project folder and include it like any other file. No libraries needed.
 ## Usage
 ### C++
-If you're using C++11 or above, just call multilineString::concat() from ```multiLineString.hpp``` and list the strings you want to concatenate. If you're not using C++11 or above, why not? 
+If you're using C++11 or above, just call ```multilineString::concat()``` from ```multiLineString.hpp``` and list the strings you want to concatenate. If you're not using C++11 or above, why not? 
 
 Each row should be it's own argument, and the output will be a single string with newline characters between all input strings.
 #### Example:
